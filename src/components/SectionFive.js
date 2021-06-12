@@ -7,7 +7,7 @@ const SectionFive = () => {
   return (
     <Container className="p-5 sectionFive">
       <Row>
-        <img src={leaves}></img>
+        <img alt="leaves" src={leaves}></img>
       </Row>
       <Row>
         <span>Read Our Blog</span>

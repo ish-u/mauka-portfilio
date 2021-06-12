@@ -7,11 +7,16 @@ const SectionFourTop = () => {
   return (
     <Row className="sectionFourChildren">
       <div>
-        <img style={{ width: "60px", height: "50px" }} src={comma}></img>
+        <img
+          alt="comma"
+          style={{ width: "60px", height: "50px" }}
+          src={comma}
+        ></img>
       </div>
       <br></br>
       <div>
         <img
+          alt="woman "
           style={{
             width: "97.6px",
             height: "97.6px",

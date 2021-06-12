@@ -7,7 +7,6 @@
 
 html,
 body {
-  /* height: 100%; */
   background-image: linear-gradient(
     to bottom,
     var(--pale-blue),
@@ -288,6 +287,11 @@ body {
 }
 
 .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 300px;
   color: white;
 }
 .info span {
@@ -303,16 +307,78 @@ body {
   color: var(--white);
 }
 
+.info p {
+  width: 319px;
+  height: 44px;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.79;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--white);
+}
+
+.linksFooter {
+  color: white;
+  height: 300px;
+}
+
+.linksFooter .container {
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  justify-content: space-around;
+}
+
+.linksFooter span {
+  width: 91px;
+  height: 21px;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.31;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--white);
+}
+
+.socialLink {
+  color: white;
+  height: 300px;
+}
+.socialLink span {
+  width: 91px;
+  height: 21px;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.31;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--white);
+}
+
+.blueBar {
+  width: 77px;
+  height: 0;
+  border: solid 2px var(--aqua-blue);
+}
+
 .navBar {
   display: flex;
   align-items: center;
+  justify-content: space-around;
 }
 
 .buttonNav {
   width: 66px;
   height: 21px;
   font-size: 16px;
-  margin: 5px;
+  margin: 20px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -321,10 +387,17 @@ body {
   color: var(--dark-grey-blue);
 }
 
+.contactButton {
+  width: 141px;
+  height: 46px;
+  border-radius: 10px;
+  background-color: transparent;
+  border: solid 2px var(--aqua-blue);
+}
+
 .links {
   width: 50vw;
   height: fit-content;
   display: flex;
-  flex-direction: row;
   justify-content: flex-end;
 }

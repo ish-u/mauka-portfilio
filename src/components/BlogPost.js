@@ -4,7 +4,7 @@ import blogPost from "../static/blogPost.png";
 const BlogPost = ({ title, content }) => {
   return (
     <div className="blogPost">
-      <img src={blogPost} className="img-fluid"></img>
+      <img alt="blog" src={blogPost} className="img-fluid"></img>
       <div>
         <span>{title}</span>
       </div>
@@ -12,7 +12,7 @@ const BlogPost = ({ title, content }) => {
         <p>{content}</p>
       </div>
       <div>
-        <a hred="#">Read More</a>
+        <a href="https://www.github.com/ish-u">Read More</a>
       </div>
     </div>
   );

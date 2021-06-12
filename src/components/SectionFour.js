@@ -1,14 +1,16 @@
 import React from "react";
-import { Container, Row } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import sideLeaf from "../static/sideLeaf.png";
 import SectionFourTop from "./SectionFourTop";
 import SectionFourBottom from "./SectionFourBottom";
+
 const SectionFour = () => {
   return (
     <Container className="p-5 sectionFour">
       <SectionFourTop></SectionFourTop>
       <SectionFourBottom></SectionFourBottom>
       <img
+        alt="side leaf"
         src={sideLeaf}
         style={{
           position: "absolute",

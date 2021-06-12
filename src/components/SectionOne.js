@@ -20,6 +20,7 @@ const SectionOne = () => {
         <Col>
           <div style={{ position: "absolute" }}>
             <img
+              alt="flower"
               class="img-fluid"
               style={{
                 position: "relative",
@@ -29,6 +30,7 @@ const SectionOne = () => {
               src={flower}
             ></img>
             <img
+              alt="logo"
               style={{
                 width: "350px",
                 height: "340px",

@@ -6,7 +6,7 @@ import OrganicFood from "./OrganicFood";
 const SectionTwo = () => {
   return (
     <Container className="p-5 sectionTwo">
-      <img src={leaves}></img>
+      <img alt="leaves" src={leaves}></img>
       <br></br>
       <span>Welcome to Nature</span>
       <br></br>

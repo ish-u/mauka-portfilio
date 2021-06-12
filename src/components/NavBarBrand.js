@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../static/logo.png";
-import { Row, Col, Container } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 
 const NavBarBrand = () => {
   return (
@@ -8,7 +8,7 @@ const NavBarBrand = () => {
       <Row>
         <Col sm={3}>
           <div>
-            <img src={logo}></img>
+            <img alt="logo" src={logo}></img>
           </div>
         </Col>
         <Col>

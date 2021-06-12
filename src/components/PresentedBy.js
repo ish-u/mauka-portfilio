@@ -4,7 +4,7 @@ import { Col } from "react-bootstrap";
 const PresentedBy = ({ logo }) => {
   return (
     <Col className="presenteByLogo">
-      <img className="img-fluid" src={logo}></img>
+      <img alt="company logo" className="img-fluid" src={logo}></img>
     </Col>
   );
 };

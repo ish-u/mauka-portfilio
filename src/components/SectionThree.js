@@ -7,7 +7,7 @@ import presentedThree from "../static/presentedByLogo_3.png";
 
 const SectionThree = () => {
   return (
-    <Container className="p-5 sectionThree">
+    <Container className="sectionThree">
       <span>Proudly presented by</span>
       <br></br>
       <p>
